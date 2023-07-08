@@ -10,6 +10,11 @@ body{
 /* nav related styles */
 nav{
     display: flex;
+    justify-content: space-between ;
+align-items: center;
+
+
+
 }
 .nav-title{
     color: #181818;
@@ -19,8 +24,19 @@ nav{
     font-weight: 800;
     
 }
- nav >ul{
+.btn{
+  background: #FD6E0A;;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+font-weight: 700;
+
+}
+ nav > ul{
     display: flex;
+    align-items: center;
  }
   nav li{
     list-style: none;
